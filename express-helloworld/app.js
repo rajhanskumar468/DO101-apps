@@ -2,11 +2,11 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World!\n');
+  res.send('Hello World!\n version 2');
 });
 
 app.get('/mars', function(req, res){
-    res.send('Hello Mars! \n');
+    res.send('Hello Mars! version 2 after committ.\n');
 });
 
 app.listen(8888, function () {
